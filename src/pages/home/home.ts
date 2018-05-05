@@ -43,7 +43,7 @@ export class HomePage {
       this.numcorrectas++;
     }
 
-    if (this.cont2<4) {
+    if (this.cont2<10) {
       this.cont++;
       this.cont2++;
     } else {

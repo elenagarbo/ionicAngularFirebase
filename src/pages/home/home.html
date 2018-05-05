@@ -1,7 +1,7 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      JSA Note
+      Quiz Java App 
     </ion-title>
 
     <ion-buttons end>
@@ -20,7 +20,7 @@
 
   <ion-list  *ngIf= "!finalizar">
     <ion-list-header>
-      Pregunta
+      Contesta las siguientes preguntas:
     </ion-list-header>
       
     <ion-list *ngFor="let note of noteList | async | slice:cont:cont2" >
